@@ -1,0 +1,90 @@
+:root{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2F4F4F;
+    height: 100vh;
+}
+
+.headerTitle{
+    background-color: white;
+    text-align:center;
+    padding: 1rem 0rem;
+}
+
+.introductionText{
+    margin-top: 1rem;
+    padding: 2rem;
+    color: wheat;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.playgroundSection{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dotted wheat;
+    border-top: 2px dotted wheat;
+}
+
+.scoreContainer{
+    flex: 1;
+    padding: 1rem;
+}
+
+.choicesContainer{
+    padding: 5rem;
+    display: flex;
+    height: 10vh;
+    flex: 3;
+    border-left: 1px solid wheat;
+}
+
+.labels{
+    margin-left: 1rem;
+    color: wheat;
+    font-size: 1.5rem;
+    
+}
+
+.choices{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choices>img{
+    padding: 0.3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition:background-color 0.6s linear,transform 0.5s ease-in-out;
+    height: 11vh;
+}
+
+.resultText{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.choices>img:hover{
+    background-color: #708090;
+    transform: scale(1.1);
+}
+
+.color{
+    color:red;
+}
